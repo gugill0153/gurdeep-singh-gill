@@ -1,0 +1,177 @@
+*{
+    margin: 0%; padding: 0%; box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+}
+
+
+ header{
+    width: 100%; height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('../taj.jpg');
+    background-repeat: repeat;
+    background-position: right bottom,left top;
+    background-size: cover;
+    overflow: scroll;
+  }
+nav{
+    width: 100%; height: 15vh;
+    background:rgba(0,0,0,0.4);
+    color: white; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+nav .logo{
+    width: 35%; text-align: center;
+    background:none;
+}
+
+.nav.logo:hover {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    font-size: larger;
+  }
+nav .Menu{
+    width: 40%;
+    display: flex; justify-content: space-around;
+}
+nav .Menu a {
+    width: 25%;
+    text-decoration: none; color: white;
+    font-weight: bold;
+}
+nav.Menu a:hover{
+    font-size: larger;
+}
+
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section h3{
+    font-size: 35px; font-weight: 200; letter-spacing: 3px; 
+    text-shadow: 1px 1px 2px black;
+    
+
+}
+section h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+    margin: 30px 0 20px 0;
+
+}
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+     text-shadow: 1px 1px 1px black;
+    
+
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: auto;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+    margin: 20px;
+    transition: all .5s ease;
+}
+section .btnone{
+   /* background: #00b894;*/
+    background: #fff;
+    color: #000;
+}
+.btnone:hover{
+    background: #00b894;
+    color: #000;
+    font-size: larger;
+    
+}
+section .btntwo{
+   /* background: #00b894;*/
+    background: #00b894;
+    color: #000;
+}
+.btntwo:hover{
+    background: #fff;
+    color: #000;
+    font-size:larger;
+
+}
+.logo:hover{
+    color: aqua;
+    font-size: large;
+    font-weight: 600;
+    text-shadow: #00b894;
+
+}
+.Menu:hover{
+    color: lawngreen;
+    font-size: larger;
+}
+
+
+/*.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+
+}
+.slides{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+.slide {
+    width: auto;
+    transition: 2s;
+}
+
+.slide img{
+    width: auto;
+    height:auto;
+}
+.navigation-auto{
+    position: absolute;
+    display: flex;
+
+}
+.navigation-auto div{
+    border: 2px solid #40d3dc;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+/*.change_content::after{
+    content: ;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: New Delhi;}
+}*/
+
